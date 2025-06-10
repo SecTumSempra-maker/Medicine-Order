@@ -1,3 +1,5 @@
+import Upload from "./UploadBox";
+
 function Nav() {
   return (
     <>
@@ -28,13 +30,14 @@ function Nav() {
               <a className="nav-link" href="#">
                 Orders
               </a>
-              <a className="nav-link disabled" aria-disabled="true">
-                Reminders
-              </a>
+              <a className="nav-link ">Reminders</a>
             </div>
           </div>
         </div>
       </nav>
+      <div>
+        <Upload />
+      </div>
     </>
   );
 }
